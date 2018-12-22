@@ -26,7 +26,8 @@ public class npcball extends ball implements Runnable
 		super(x,y,img,l,Math.random());
 		this.v=v;
 		this.d=d;
-		this.av=1-(l/fn);
+//		this.av=1-(l/fn);
+		this.av=1;//1 for constant velocity
 		this.r_l=r_l;
 		this.d_u=d_u;
 		gva=1;

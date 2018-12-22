@@ -38,11 +38,10 @@ public static void main(String[] args) throws IOException
 				(int)(Math.random()*(MyFrame.height-ballsize/2-35-ballsize/2)+ballsize/2),
 				ballimg,
 				ballsize,
-				(int)(Math.random()*(5-1)+1),
+				(int)(Math.random()*(5-4)+1),//Velocity
 				Math.random()*(90),
 				(Math.random()*1000)%2==0?1:-1,
-				(Math.random()*1000)%2==0?1:-1
-				)
+				(Math.random()*1000)%2==0?1:-1)
 		);
 		try 
 		{
