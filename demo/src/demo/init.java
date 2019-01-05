@@ -11,6 +11,7 @@ import javax.imageio.ImageIO;
 
 public class init 
 {
+@SuppressWarnings("unused")
 public static void main(String[] args) throws IOException 
 {
 	ArrayList<ball> balls=new ArrayList<ball>();
@@ -18,9 +19,12 @@ public static void main(String[] args) throws IOException
 	
 	try
 	{
-		ballimg.add(ImageIO.read(new File("demo/src/img/huaji2.png")));
-		ballimg.add(ImageIO.read(new File("demo/src/img/huaji4.png")));
-		ballimg.add(ImageIO.read(new File("demo/src/img/huaji3.png")));
+//		ballimg.add(ImageIO.read(new File("demo/src/img/huaji2.png")));
+//		ballimg.add(ImageIO.read(new File("demo/src/img/huaji4.png")));
+//		ballimg.add(ImageIO.read(new File("demo/src/img/huaji3.png")));
+		ballimg.add(ImageIO.read(new File("demo/src/demo/huaji2.png")));
+		ballimg.add(ImageIO.read(new File("demo/src/demo/huaji4.png")));
+		ballimg.add(ImageIO.read(new File("demo/src/demo/huaji3.png")));
 	}
 	catch(IIOException e)
 	{
