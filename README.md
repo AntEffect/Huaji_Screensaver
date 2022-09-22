@@ -13,5 +13,8 @@ Screen Saver with Huaji emoji
 
 ## 使用说明：
 运行Huaji.exe作为屏保程序，需要：
+
 1.将该exe文件复制到C:\Windows\SysWOW64下，并将后缀改为scr
+
 2.在该目录下新建目录demo\src\demo\，在该目录下放入huaji2.png、huaji3.png、huaji4.png、Husky.jpg
+
